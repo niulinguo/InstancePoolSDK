@@ -26,5 +26,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation project(":instancepool")
+//    implementation project(":instancepool")
+    implementation 'com.github.niulinguo:InstancePoolSDK:v1.0'
 }
