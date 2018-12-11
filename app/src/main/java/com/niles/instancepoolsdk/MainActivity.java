@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onButtonClicked(View view) {
         DbManager dbManager = InstancePool.get(DbManager.class);
-        dbManager.sayHello(this);
+        // VS
+//        DbManager manager = DbManager.getInstance(getApplication());
     }
 }

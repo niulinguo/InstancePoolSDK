@@ -12,7 +12,7 @@ maven { url 'https://www.jitpack.io' }
 2. 导入 SDK
 
 ``` Gradle
-implementation 'com.github.niulinguo:InstancePoolSDK:v1.0'
+implementation 'com.github.niulinguo:InstancePoolSDK:v1.1'
 ```
 
 ## 使用

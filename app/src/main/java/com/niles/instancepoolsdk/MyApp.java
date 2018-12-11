@@ -19,7 +19,7 @@ public class MyApp extends Application {
         InstancePool.register(DbManager.class, new InstanceCreator<DbManager>() {
             @Override
             public DbManager createInstance() {
-                return new DbManager();
+                return new DbManager(MyApp.this);
             }
         });
     }

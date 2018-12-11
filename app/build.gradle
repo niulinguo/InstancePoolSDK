@@ -6,8 +6,8 @@ android {
         applicationId "com.niles.instancepoolsdk"
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode Integer.parseInt(VERSION_CODE)
-        versionName VERSION_NAME
+        versionCode 2
+        versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -26,6 +26,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-//    implementation project(":instancepool")
-    implementation 'com.github.niulinguo:InstancePoolSDK:v1.0'
+    implementation project(":instancepool")
+//    implementation 'com.github.niulinguo:InstancePoolSDK:v1.0'
 }

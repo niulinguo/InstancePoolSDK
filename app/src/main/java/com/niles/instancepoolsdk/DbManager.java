@@ -1,8 +1,6 @@
 package com.niles.instancepoolsdk;
 
-import android.content.Context;
-import android.util.Log;
-import android.widget.Toast;
+import android.app.Application;
 
 /**
  * Created by Niles
@@ -11,11 +9,9 @@ import android.widget.Toast;
  */
 public class DbManager {
 
-    public DbManager() {
-        Log.e("new", toString());
-    }
+    private final Application mApp;
 
-    public void sayHello(Context context) {
-        Toast.makeText(context, "hello world", Toast.LENGTH_SHORT).show();
+    public DbManager(Application app) {
+        mApp = app;
     }
 }
